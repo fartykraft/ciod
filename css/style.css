@@ -1,0 +1,137 @@
+/*h1 {
+  color: #00bcd4;
+}
+
+p {
+  text-decoration: underline;
+  line-height: 1.4;
+
+  font-family: 'Noto Serif', serif;
+  font-size: 14px;
+}
+
+span {
+  color: red;
+}
+
+nav ul li a {
+  color: red;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color:blue;
+}
+
+header {
+  height: 300px;
+
+  background: red url(../images/header-bg.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.features h2 {
+  color: tomato;
+}
+
+.mockup h2 {
+  color: blue;
+}
+
+.clients {
+
+}*/
+
+/*navigation*/
+nav {
+  background-color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul {
+  float: right;
+  margin-top: 50px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+/*header*/
+header {
+  background-color: black;
+  background-image: url(../images/header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  color: white;
+  text-align: center;
+  padding-top: 120px;
+}
+
+header a, article a, .clients a {
+  color: white;
+  text-decoration: none;
+  background-color: #1bbc9b;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+/*features*/
+.features {
+  text-align: center;
+  padding: 20px
+}
+
+.features article {
+  width: 25%;
+  float: left;
+  padding: 10px;
+}
+
+/*mockup*/
+.mockup {
+  clear: both;
+  background: black url(../images/mockup-bg.jpg) center no-repeat;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  background-attachment: fixed;
+}
+
+/*clients*/
+.clients, footer {
+  text-align: center;
+  background-color: #1bbc9b;
+  color: white;
+  padding: 20px 0;
+}
+
+.clients ul, footer ul {
+  padding-left: 0;
+}
+
+.clients ul li, footer ul li {
+  display: inline;
+}
+
+.clients a {
+  color: #1bbc9b;
+  background-color: white;
+}
+
+/*footer*/
+footer {
+  background: black;
+}
